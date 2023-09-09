@@ -11,7 +11,7 @@ import RxCocoa
 import RxDataSources
 
 struct Section {
-    var title: String
+    var title: String?
     var items: [Item]
 }
 
@@ -50,8 +50,10 @@ class ProfileViewModel: ProfileViewModelProtocol {
             .map { user, albums in
                 // Create two sections, one for user data and one for albums data
                 return [
-                    Section(title: "User Info", items: [SectionItem.user(user)]),
-                    Section(title: "Albums", items: albums.map { SectionItem.album($0) })
+                    Section(title: nil,
+                            items: [SectionItem.user(user)]),
+                    Section(title: "Albums",
+                            items: albums.map { SectionItem.album($0) })
                 ]
             }
     }
