@@ -55,6 +55,7 @@ extension ProfileViewController {
         self.title = "Profile"
         guard let navigationController = self.navigationController else  {return}
         navigationController.navigationBar.prefersLargeTitles = true
+        navigationController.navigationBar.tintColor = .black
     }
     
     private func setupTableView() {
