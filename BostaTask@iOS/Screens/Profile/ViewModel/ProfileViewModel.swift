@@ -38,13 +38,13 @@ class ProfileViewModel: ProfileViewModelProtocol {
     private let userResponseSubject = PublishSubject<User>()
     private let userAlbumsResponseSubject = PublishSubject<[UserAlbum]>()
     private let errorSubject = PublishSubject<Error>()
-    
-    var userResponseObservable: Observable<User> {
+    private var userResponseObservable: Observable<User> {
         return userResponseSubject.asObservable()
     }
-    var userAlbumsResponse: Observable<[UserAlbum]> {
+    private var userAlbumsResponse: Observable<[UserAlbum]> {
         return userAlbumsResponseSubject.asObservable()
     }
+    
     var sectionsObservable: Observable<[Section]> {
         return Observable.combineLatest(userResponseObservable, userAlbumsResponse)
             .map { user, albums in
@@ -62,7 +62,7 @@ class ProfileViewModel: ProfileViewModelProtocol {
     }
     var loadingBehavior = BehaviorRelay<Bool>(value: false)
     
-    let disposeBag = DisposeBag()
+    private let disposeBag = DisposeBag()
     
     //MARK: Inintailzer
     init(userRemoteDataManager: UsersRemoteDataManagerProtocol,

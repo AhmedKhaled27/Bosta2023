@@ -21,7 +21,7 @@ class AlbumPhotosViewController: UIViewController {
     
     private let disposeBag = DisposeBag()
     
-    //MARK: ViewContollerLifeCycle
+    //MARK: ViewLifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
         setupCollectionView()
@@ -87,7 +87,7 @@ extension AlbumPhotosViewController {
             .bind
         { [weak self] error in
             guard let self = self else {return}
-            self.showAlertController(title: "",
+            self.showAlertController(title: "Error!",
                                      message: error.localizedDescription,
                                      actions: [])
         }.disposed(by: disposeBag)

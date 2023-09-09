@@ -82,7 +82,7 @@ extension ProfileViewController {
             .bind
         { [weak self] error in
             guard let self = self else {return}
-            self.showAlertController(title: "",
+            self.showAlertController(title: "Error!",
                                      message: error.localizedDescription,
                                      actions: [])
         }.disposed(by: disposeBag)
