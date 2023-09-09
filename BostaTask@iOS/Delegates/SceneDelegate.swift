@@ -17,6 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        setNewAppRoot()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -50,3 +51,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 }
 
+extension SceneDelegate {
+    private func setNewAppRoot() {
+        let usersRemoteDataManager = UsersRemoteDataManager()
+        let userAlbumsRemoteDataManager = UserAlbumsRemoteDataManager()
+        
+        let profileViewModel = ProfileViewModel(userRemoteDataManager: usersRemoteDataManager,
+                                                userAlbumsRemoteDataManager: userAlbumsRemoteDataManager)
+        let profileViewController = ProfileViewController(viewModel: profileViewModel)
+        
+        let navRoot = UINavigationController(rootViewController: profileViewController)
+        self.window?.rootViewController = navRoot
+    }
+}

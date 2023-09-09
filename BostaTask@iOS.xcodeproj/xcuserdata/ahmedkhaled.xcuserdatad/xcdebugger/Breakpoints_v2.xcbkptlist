@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "335F4900-3D29-4BAA-912F-6C18D2948A24"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "990AB2CC-E790-459C-9A16-8D06E0A9C491"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/BostaTask@iOS-cfriqyydnpafdzhderhujnqqlmng/SourcePackages/checkouts/Moya/Sources/Moya/Response.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "map(_:atKeyPath:using:failsOnEmptyData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17FF1D55-616B-47E5-86FE-6FA8F6A79452"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/BostaTask@iOS-cfriqyydnpafdzhderhujnqqlmng/SourcePackages/checkouts/Moya/Sources/Moya/Response.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "map(_:atKeyPath:using:failsOnEmptyData:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "17FF1D55-616B-47E5-86FE-6FA8F6A79452 - 4094f02cbad96c1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Moya.Response.map&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: &#x3c4;_0_0.Type, atKeyPath: Swift.Optional&lt;Swift.String&gt;, using: Foundation.JSONDecoder, failsOnEmptyData: Swift.Bool) throws -&gt; &#x3c4;_0_0"
+                  moduleName = "BostaTask@iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedkhaled/Library/Developer/Xcode/DerivedData/BostaTask@iOS-cfriqyydnpafdzhderhujnqqlmng/SourcePackages/checkouts/Moya/Sources/Moya/Response.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "175"
+                  endingLineNumber = "175"
+                  offsetFromSymbolStart = "3087">
+               </Location>
+               <Location
+                  uuid = "17FF1D55-616B-47E5-86FE-6FA8F6A79452 - 4094f02cbad96c1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Moya.Response.map&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: &#x3c4;_0_0.Type, atKeyPath: Swift.Optional&lt;Swift.String&gt;, using: Foundation.JSONDecoder, failsOnEmptyData: Swift.Bool) throws -&gt; &#x3c4;_0_0"
+                  moduleName = "BostaTask@iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedkhaled/Library/Developer/Xcode/DerivedData/BostaTask@iOS-cfriqyydnpafdzhderhujnqqlmng/SourcePackages/checkouts/Moya/Sources/Moya/Response.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "175"
+                  endingLineNumber = "175"
+                  offsetFromSymbolStart = "3346">
+               </Location>
+               <Location
+                  uuid = "17FF1D55-616B-47E5-86FE-6FA8F6A79452 - 4094f02cbad96c1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Moya.Response.map&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: &#x3c4;_0_0.Type, atKeyPath: Swift.Optional&lt;Swift.String&gt;, using: Foundation.JSONDecoder, failsOnEmptyData: Swift.Bool) throws -&gt; &#x3c4;_0_0"
+                  moduleName = "BostaTask@iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedkhaled/Library/Developer/Xcode/DerivedData/BostaTask@iOS-cfriqyydnpafdzhderhujnqqlmng/SourcePackages/checkouts/Moya/Sources/Moya/Response.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "175"
+                  endingLineNumber = "175"
+                  offsetFromSymbolStart = "3428">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DA951AB-5C46-4F2E-A94C-E68753C00109"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/BostaTask@iOS-cfriqyydnpafdzhderhujnqqlmng/SourcePackages/checkouts/Moya/Sources/Moya/Response.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "map(_:atKeyPath:using:failsOnEmptyData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD8A5AA1-4BA1-4B46-96DF-FC979B59B722"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/BostaTask@iOS-cfriqyydnpafdzhderhujnqqlmng/SourcePackages/checkouts/Moya/Sources/Moya/Response.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "map(_:atKeyPath:using:failsOnEmptyData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
